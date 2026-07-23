@@ -9,8 +9,7 @@ Tuning under Data Heterogeneity: A Subspace-Decomposed Expert Approach**
 FedSEPT is a privacy-preserving federated prompt tuning framework for
 heterogeneous vision-language tasks. It represents transferable knowledge with
 multiple compact prompt experts while keeping client-specific residuals local.
-Only low-rank shared factors are communicated and protected by per-sample
-DP-SGD.
+Only low-rank shared factors are communicated and protected by DP-SGD.
 
 ---
 
