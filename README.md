@@ -117,9 +117,9 @@ python federated_main.py \
   --device cuda:0
 ```
 
-The default FedSEPT setup uses four experts, rank 16, four routing heads, and
-`lambda_div = 10`. A zero `--dp_sigma` enables per-client automatic noise
-calibration for the requested privacy budget.
+The default FedSEPT setup uses four experts, rank 16, four routing heads,
+`lambda_div = 10`, and `lambda_gate = 10`. A zero `--dp_sigma` enables
+per-client automatic noise calibration for the requested privacy budget.
 
 ---
 
