@@ -61,8 +61,8 @@ The code was tested with Python 3.9, PyTorch 2.5.1, and Opacus 1.5.4. A CUDA
 GPU is recommended.
 
 ```bash
-conda create -n fllora python=3.9
-conda activate fllora
+conda create -n fedsept python=3.9
+conda activate fedsept
 pip install -r requirements.txt
 ```
 
